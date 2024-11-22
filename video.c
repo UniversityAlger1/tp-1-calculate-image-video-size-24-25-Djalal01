@@ -12,7 +12,7 @@ float video(int w, int h, int durationMovie, int durationCredits, int fps, char*
    // YOUR CODE HERE - BEGIN
  if (strcmp(unit, "bt") == 0) {
    
-return w*h*durationMovie* 3 * fps + w*h*durationCredits*fps/8;
+return(float) w*h*durationMovie* 3 * fps + w*h*durationCredits*fps/8;
 
  } else if (strcmp(unit, "ko") == 0) {
    
